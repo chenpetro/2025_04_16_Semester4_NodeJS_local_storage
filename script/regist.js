@@ -6,5 +6,5 @@ const form = document.querySelector('.form')
 form.addEventListener('submit', function() {
     formFields.forEach(function(element, index){
         localStorage.setItem(keyFields[index],element.value)
+        })
     })
-})

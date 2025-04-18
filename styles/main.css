@@ -20,3 +20,7 @@ body{
     align-self: center;
     cursor: pointer;
 }
+
+li{
+    list-style: none;
+}
